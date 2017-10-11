@@ -9,3 +9,4 @@ The goal of this exercise is to get a good idea of your experience of frontend t
 1. Click on dropdown for options, select an item, a check mark and tag highted will show up in dropdown box (see screenshots)
 2. Similarly you can start typing in the dropdown and be able to select options and tag highted will show up in dropdown box
 
+![Alt text](Frontend_Assignment.jpg "")
