@@ -7,8 +7,7 @@ http://www.mocky.io/v2/59e00fa20f0000d400effa32
 
 ### Bonus Points for using
 - VUE.js
-- Element.io components
-
+- Element (https://github.com/ElemeFE/element)
 ## Submission Guidelines
 1. Create a fork of this repository and push code to fork
 2. Submit by creating a message with a message or review to github user “slaveniq”
