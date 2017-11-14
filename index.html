@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>v-show</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui@1.0.0-rc.3/lib/theme-default/index.css">
+    <link rel="stylesheet" href="style.css">
+
+    <template id="dropdown">
+      <el-select class="dropdown-format" v-model="value" filterable multiple placeholder="Select">
+        <el-option v-for="item in options" :key="item.id" 
+                   :label="item.name" :value="item.id">
+        </el-option>
+      </el-select>
+    </template>
+  </head>
+
+  <body class="container">
+    <h3>Agent IQ Coding Challenge <span><a target="_blank" href="https://codepen.io/mayano/full/JONzYG">(demo)</a></span></h3>
+    <div>
+      <div id="app">
+        <input class="form-control" placeholder="Command Title"></input>
+        <textarea class="form-control" placeholder="Conversation"></textarea>
+        
+        <agent-dropdown></agent-dropdown>
+        <agent-dropdown></agent-dropdown>
+
+        <div id="btns">
+          <button class="btn">Cancel</button>
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@2.0.0-rc.6/dist/vue.js"></script>
+    <script src="https://unpkg.com/element-ui@1.0.0-rc.3/lib/index.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
